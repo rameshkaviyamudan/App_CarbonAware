@@ -24,11 +24,10 @@ CarbonAware is a mobile application designed to help users understand and reduce
 
 - Android Studio
 - Android device or emulator
-- (Add any other prerequisites specific to your app)
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/CarbonAware.git`
+1. Clone the repository: `git clone https://github.com/rameshkaviyamudan/App_CarbonAware`
 2. Open the project in Android Studio.
 3. Build and run the app on your device or emulator.
 
@@ -42,20 +41,11 @@ CarbonAware is a mobile application designed to help users understand and reduce
 
 ## Testing
 
-The app has undergone extensive testing, including functionality, usability, and integration tests. If you encounter any issues, please [submit a bug report](link_to_issue_tracker).
-
-## Contributing
-
-We welcome contributions! If you would like to contribute to the development of CarbonAware, please follow our [contribution guidelines](link_to_contributing.md).
-
-## License
-
-This project is licensed under the [Your License] - see the [LICENSE.md](LICENSE.md) file for details.
+The app has undergone extensive testing, including functionality, usability, and integration tests.
 
 ## Acknowledgments
 
-- Mention any contributors, libraries, or resources that inspired or helped your project.
-
+I did this with my partner for our group project.
 ---
 
 Feel free to modify the structure and content based on your specific app and requirements. Add or remove sections as needed.
