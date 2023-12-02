@@ -45,7 +45,7 @@ The app has undergone extensive testing, including functionality, usability, and
 
 ## Acknowledgments
 
-I did this with my partner for our group project.
+I did this with my partner for our group project, ![Dinesh](https://github.com/lowkeydinesh)
 ---
 
 Feel free to modify the structure and content based on your specific app and requirements. Add or remove sections as needed.
