@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/statTextView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!-- Part 1: Total Carbon Footprint -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChart"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" >
+
+        </com.github.mikephil.charting.charts.BarChart>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="0"/>
+
+        <TextView
+            android:id="@+id/total_carbon_footprint_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Total Carbon Footprint"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/homeCarbonFootprintTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Total Carbon Footprint"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/foodCarbonFootprintTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Total Carbon Footprint"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/travelCarbonFootprintTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Total Carbon Footprint"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/totalCarbonFootprintTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Total Carbon Footprint"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+    <!-- Part 2: Swipeable CardView -->
+
+
+</LinearLayout>

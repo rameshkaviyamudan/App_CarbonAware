@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <application
+
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LoginRegisterFireBases"
+        tools:targetApi="31" >
+
+        <activity
+            android:name=".Splashscreen"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Tips"
+            android:exported="false"
+            android:label="Green Living Tips" />
+        <activity
+            android:name=".profile"
+            android:exported="false"
+            android:label="Your Personal Details" />
+        <activity
+            android:name=".M"
+            android:exported="false"
+            android:label="Miscellaneous Usage in Hours" />
+        <activity
+            android:name=".HC"
+            android:exported="false"
+            android:label="Heating &amp; Cooling Usage in Hours" />
+        <activity
+            android:name=".Electronics"
+            android:exported="false"
+            android:label="Electronics Usage in Hours" />
+        <activity
+            android:name=".LA"
+            android:exported="false"
+            android:label="Laundry Appliances Usage in Hours" />
+        <activity
+            android:name=".KA"
+            android:exported="false"
+            android:label="Kitchen Appliances Usage in Hours" />
+        <activity
+            android:name=".Lighting"
+            android:exported="false"
+            android:label="Lighting Usage in Hours" />
+        <activity
+            android:name=".Login"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Main Page"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".House_utility"
+            android:label="House Utility" />
+        <activity
+            android:name=".FoodActivity"
+            android:label="Select Food items you consumed today" />
+        <activity
+            android:name=".Travel"
+            android:label="Travel Usage in Hours" />
+        <activity
+            android:name=".Stats"
+            android:label="Your Monthly Carbon Footprint Stats" />
+
+        <activity
+            android:name=".About"
+            android:label="About our App" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.sp.loginregisterfirebases.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

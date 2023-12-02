@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpeedometerView">
+        <!-- The maximum value for the speedometer -->
+        <attr name="maxValue" format="integer" />
+
+        <!-- The current value for the speedometer -->
+        <attr name="value" format="integer" />
+    </declare-styleable>
+</resources>
