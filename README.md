@@ -45,7 +45,9 @@ The app has undergone extensive testing, including functionality, usability, and
 
 ## Acknowledgments
 
-I did this with my partner for our group project, ![Dinesh](https://github.com/lowkeydinesh)
+I did this with my partner for our group project, [Dinesh](https://github.com/lowkeydinesh)
 ---
+Check out our YouTube demo for a visual walkthrough of the app.
+<a href="https://youtu.be/YRA13SC-9PA" target="_blank"><img src="[THUMBNAIL_IMAGE_URL](https://i9.ytimg.com/vi_webp/YRA13SC-9PA/mq1.webp?sqp=CPzdo7AG&rs=AOn4CLCbQzMXAJ2b3wQu3qMhA1nWEREXvg&retry=4)" alt="YouTube Video Thumbnail"></a>
 
 Feel free to modify the structure and content based on your specific app and requirements. Add or remove sections as needed.
