@@ -48,6 +48,6 @@ The app has undergone extensive testing, including functionality, usability, and
 I did this with my partner for our group project, [Dinesh](https://github.com/lowkeydinesh)
 ---
 Check out our YouTube demo for a visual walkthrough of the app.
-<a href="https://youtu.be/YRA13SC-9PA" target="_blank"><img src="[THUMBNAIL_IMAGE_URL](https://i9.ytimg.com/vi_webp/YRA13SC-9PA/mq1.webp?sqp=CPzdo7AG&rs=AOn4CLCbQzMXAJ2b3wQu3qMhA1nWEREXvg&retry=4)" alt="YouTube Video Thumbnail"></a>
+<a href="https://youtu.be/YRA13SC-9PA" target="_blank"><img src="https://i9.ytimg.com/vi/YRA13SC-9PA/mqdefault.jpg?sqp=CPzdo7AG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLC1RIHKdQikPxkCjeYj4l-6ZlLCHQ" alt="YouTube Video Thumbnail"></a>
 
 Feel free to modify the structure and content based on your specific app and requirements. Add or remove sections as needed.
